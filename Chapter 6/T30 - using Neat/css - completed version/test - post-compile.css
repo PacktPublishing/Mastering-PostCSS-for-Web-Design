@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+div {
+  background-color: red;
+  background-image: -webkit-linear-gradient(red, black);
+  background-image: linear-gradient(red, black); }
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .element {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .element:last-child {
+      margin-right: 0; }
+    .element:nth-child(2n) {
+      margin-right: 0; }
+    .element:nth-child(2n+1) {
+      clear: left; } }
+
+@media screen and (min-width: 701px) {
+  .element {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .element:last-child {
+      margin-right: 0; }
+    .element:nth-child(3n) {
+      margin-right: 0; }
+    .element:nth-child(3n+1) {
+      clear: left; } }

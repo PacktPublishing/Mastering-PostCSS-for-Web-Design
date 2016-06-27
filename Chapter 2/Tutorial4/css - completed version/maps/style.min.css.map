@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.min.css"],"sourcesContent":[".social-icon{background:50% no-repeat;background-size:100%;float:left;height:50px;width:50px}.icon-twitter{background:url(../img/twitter.png)}.icon-linkedin{background:url(../img/linkedin.png)}.icon-youtube{background:url(../img/youtube.png)}"],"file":"style.min.css","sourceRoot":"/source/"}

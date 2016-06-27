@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../fonts/DroidSans-webfont.eot');
+    src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSans-webfont.woff') format('woff'),
+         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: 'droid_sansregular',sans-serif; }
+aside { width: 35%; float: right; }
+
+a { text-decoration: none; text-transform: uppercase; }
+a, img { border: medium none; color: #000; font-weight: bold; outline: medium none; }
+
+header h1 { height: 70px; float: left; display: block; font-weight: 700; font-size: 2rem; }
+header nav { float: right; margin-top: 40px; height: 22px; border-radius: 4px; }
+header nav li { display: inline; margin-left: 15px; }
+header nav ul { font-weight: 400; font-size: 1.1rem; padding-left: 0px;}
+header nav a { padding: 5px 5px 5px 5px; }
+header nav a:hover { background-color: #27a7bd; color: #fff; border-radius: 4px; }
+
+footer { border-top: 1px solid #ccc; clear: both; height: 30px; padding-top: 5px; }
+
+#wrapper { width: 96%; max-width: 45rem; margin: auto; padding: 2%; }
+#main { width: 60%; margin-right: 5%; float: left; }
+#skipTo { display: none; }
+#skipTo li { background: #197a8a; }
+#skipTo a { color: #fff; font-size: .8rem; }
+#banner { float: left; margin-bottom: 15px; width: 100%; }
+
+@media screen and (max-width: 30rem) {
+	#skipTo {display: block}
+	#skipTo a {display: block;padding: 10px; text-align: center;height: 20px; margin-top: -20px;}
+	#skipTo a:hover {background-color: #27a7bd; border-radius: 0;height: 20px}
+	#main,aside {float: left;clear: left;margin: 0 0 10px;width: 100%}
+	#banner {margin-top: 150px}
+
+	footer { font-size: 12px; }
+	header h1 {margin-top: 20px; height: 40px; }
+	header nav  {float: left;clear: left;margin: 0 0 20px;width: 100%}
+	header nav li  {margin: 0;background: #efefef;display: block;margin-bottom: 3px;height: 40px}
+	header nav a  {display: block;padding: 10px;text-align: center}
+	header nav a:hover {background-color: #27a7bd;border-radius: 0;padding: 10px;height: 20px}
+}
+
+#video-wrapper video  { max-width:  100%; }
+
+#banner { background-image: url('../img/abstract-banner-large.jpg'); height: 15.31rem; width: 45.5rem; max-width: 100%; } 
+
+@media screen and (max-width: 30rem) {
+  #banner { margin-top: 150px; background-image: url('../img/abstract-banner-medium.jpg'); height: 4.85rem; width: 45.5rem; max-width: 100%; }
+}

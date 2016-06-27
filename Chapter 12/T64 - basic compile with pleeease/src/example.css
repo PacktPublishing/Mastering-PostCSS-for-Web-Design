@@ -1,0 +1,21 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.a {
+  font-size: 2rem;
+  width: calc(100% - 50px);
+}
+
+@media (min-width: 38em) {
+  .a {
+    color: red;
+  }
+}
+
+@media (min-width: 38em) {
+  .b {
+    color: blue;
+  }
+}
+

@@ -1,0 +1,80 @@
+.midas {
+    background: #fcfdfe;
+    color: #515253;
+}
+
+.midas__property {
+    font-style: italic;
+}
+
+.midas__comment {
+    color: #959697;
+}
+
+.midas__string {
+    color: #31a354;
+}
+
+.midas__function-name {
+    color: #80b1d3;
+}
+
+.midas__important {
+    color: #31a354;
+}
+
+.midas__hex-value {
+    color: #e6550d;
+}
+
+.midas__hex-color {
+    color: #80b1d3;
+}
+
+.midas__number,
+.midas__word {
+    color:#e6550d;
+}
+
+.midas__vendor-prefix {
+    color: #959697;
+}
+
+/**
+ * Selectors
+ */
+
+.midas__selector {
+    color: #756bb1;
+}
+
+.midas__tag {
+    color: #e31a1c;
+    text-decoration: underline;
+}
+
+.midas__id {
+    color: #3182bd;
+}
+
+.midas__attribute-name,
+.midas__class,
+.midas__pseudo {
+    color: #e6550d;
+}
+
+.midas__attribute-value {
+    color: #31a354;
+}
+
+/**
+ * At rules
+ */
+
+.midas__at-rule-name {
+    color: #756bb1;
+}
+
+.midas__at-rule-keyword {
+    color: #e6550d;
+}

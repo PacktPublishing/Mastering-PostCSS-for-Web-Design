@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.min.css"],"sourcesContent":[".icon{display:inline-block;padding:3rem}.icon--ei-sc-linkedin{fill:green}.icon--ei-sc-github{fill:orange}.icon--ei-sc-twitter{fill:darkred}.icon--ei-sc-youtube{fill:#4169e1}"],"file":"style.min.css","sourceRoot":"/source/"}

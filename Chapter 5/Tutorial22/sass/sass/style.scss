@@ -1,0 +1,13 @@
+.icon {
+  display: inline-block;
+  padding: 3rem;
+  
+  &--ei-sc- {
+    &linkedin { fill: green; }
+    &github { fill: orange; }
+    &twitter { fill: darkred; }
+    &youtube { fill: royalblue; }
+  }
+}
+
+/*# sourceMappingURL=maps/style.css.map */

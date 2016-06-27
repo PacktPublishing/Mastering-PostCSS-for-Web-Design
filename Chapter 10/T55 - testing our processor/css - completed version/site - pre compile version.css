@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  font-path: '../fonts/DroidSans-webfont';
+  font-weight: normal;
+  font-style: normal;
+}
+
+body { 
+  font-family: 'droid_sansregular',sans-serif; 
+}
+
+aside { 
+  width: 35%; 
+  float: right; 
+}
+
+a { text-decoration: none; text-transform: uppercase; }
+a, img { border: medium none; color: rgba(#000, 1); font-weight: bold; outline: medium none; }
+
+header h1 { height: 4.375rem; float: left; display: block; font-weight: 700; }
+header nav { float: right; margin-top: 2.5rem; height: 1.375rem; border-radius: 0.25rem; }
+header nav li { display: inline; margin-left: 0.9375rem; }
+header nav ul { font-weight: 400; font-size: responsive; padding-left: 0;}
+header nav a { padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem; }
+header nav a:hover { color: rgba(#fff, 1) rgba(#27a7bd, 1); border-radius: 0.25rem; }
+
+footer { border-top: 0.0625rem solid rgba(#ccc, 1); clear: both; height: 1.875rem; padding-top: 0.3125rem; }
+
+#wrapper { width: 96%; max-width: 45rem; margin: auto; padding: 2%; }
+#main { width: 60%; margin-right: 5%; float: left; }
+
+#skipTo { 
+  display: none; 
+
+  & li { background: rgba(#197a8a, 1); }
+  & a { color: rgba(#fff, 1); font-size: responsive; }
+}
+
+#banner { float: left; margin-bottom: 0.9375rem; width: 100%; }
+
+@media screen and (max-width: 30rem) {
+  #skipTo {display: block}
+  #skipTo a {display: block; padding: 0.625rem; text-align: center; height: 1.25rem; margin-top: -1.25rem;}
+  #skipTo a:hover { color: rgba(#fff, 1) rgba(#27a7bd, 1); border-radius: 0;height: 1.25rem; }
+  #main,aside {float: left;clear: left; margin: 0 0 0.625rem; width: 100%}
+  #banner {margin-top: 19.375rem; }
+
+  footer { font-size: responsive; }
+  header h1 {margin-top: 1.25rem; height: 2.5rem; }
+  header nav  {float: left;clear: left;margin: 0 0 1.25rem; width: 100%}
+  header nav li  {margin: 0;background: rgba(#efefef, 1); display: block;margin-bottom: 0.1875rem; height: 2.5rem;}
+  header nav a  {display: block;padding: 0.625rem; text-align: center}
+  header nav a:hover { color: rgba(#fff, 1) rgba(#27a7bd, 1); border-radius: 0; padding: 0.625rem; height: 1.25rem;}
+}
+
+#video-wrapper video  { max-width:  100%; }
+
+#banner { background-image: url('../img/abstract-banner-large.jpg'); height: 15.31rem; width: 45.5rem; max-width: 100%; } 
+
+@media screen and (max-width: 30rem) {
+  #banner { margin-top: 9.375rem; background-image: url('../img/abstract-banner-medium.jpg'); height: 4.85rem; width: 45.5rem; max-width: 100%; }
+}
+

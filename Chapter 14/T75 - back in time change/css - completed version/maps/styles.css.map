@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["styles.css"],"sourcesContent":["#div {\r\n  width: 300px;\r\n  height: 300px;\r\n  background: url('../img/br.png'),\r\n              url('../img/tr.png');\r\n  background-blend-mode: multiply;\r\n}\r\n\r\n"],"file":"styles.css","sourceRoot":"/source/"}

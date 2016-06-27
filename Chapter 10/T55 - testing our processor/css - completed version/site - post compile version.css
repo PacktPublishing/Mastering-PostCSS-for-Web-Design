@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'droid_sansregular';
+  src: url("../fonts/DroidSans-webfont.eot");
+  src: url("../fonts/DroidSans-webfont.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/DroidSans-webfont.woff") format('woff'),
+       url("../fonts/DroidSans-webfont.ttf") format('truetype'),
+       url("../fonts/DroidSans-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body { 
+  font-family: 'droid_sansregular',sans-serif; 
+}
+
+aside { 
+  width: 35%; 
+  float: right; 
+}
+
+a { text-decoration: none; text-transform: uppercase; }
+a, img { border: medium none; color: #000000; color: rgba(0,0,0, 1); font-weight: bold; outline: medium none; }
+
+header h1 { height: 70px; height: 70px; height: 4.375rem; float: left; display: block; font-weight: 700; }
+header nav { float: right; margin-top: 40px; margin-top: 40px; margin-top: 2.5rem; height: 22px; height: 22px; height: 1.375rem; border-radius: 0.25rem; }
+header nav li { display: inline; margin-left: 15px; margin-left: 15px; margin-left: 0.9375rem; }
+header nav ul { font-weight: 400; font-size: calc(12px + 9 * ( (100vw - 420px) / 860)); padding-left: 0;}
+@media screen and (min-width: 1280px) {
+
+  header nav ul {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 420px) {
+
+  header nav ul {
+    font-size: 12px;
+  }
+}
+header nav a { padding: 5px 5px 5px 5px; padding: 5px 5px 5px 5px; padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem; }
+header nav a:hover { color: #ffffff; background-color: #27a7bd; color: rgba(255,255,255, 1); background-color: rgba(39,167,189, 1); border-radius: 0.25rem; }
+
+footer { border-top: 1px solid rgba(204,204,204, 1); border-top: 1px solid rgba(204,204,204, 1); border-top: 0.0625rem solid rgba(204,204,204, 1); clear: both; height: 30px; height: 30px; height: 1.875rem; padding-top: 5px; padding-top: 5px; padding-top: 0.3125rem; }
+
+#wrapper { width: 96%; max-width: 720px; max-width: 720px; max-width: 45rem; margin: auto; padding: 2%; }
+#main { width: 60%; margin-right: 5%; float: left; }
+
+#skipTo { 
+  display: none
+}
+
+#skipTo li {
+  background: #197a8a;
+  background: rgba(25,122,138, 1);
+}
+
+#skipTo a {
+  color: #ffffff;
+  color: rgba(255,255,255, 1);
+  font-size: calc(12px + 9 * ( (100vw - 420px) / 860));
+}
+
+@media screen and (min-width: 1280px) {
+
+  #skipTo {}
+
+  #skipTo a {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  #skipTo {}
+
+  #skipTo a {
+    font-size: 12px;
+  }
+}
+
+#banner { float: left; margin-bottom: 15px; margin-bottom: 15px; margin-bottom: 0.9375rem; width: 100%; }
+
+@media screen and (max-width: 30rem) {
+  #skipTo {display: block}
+  #skipTo a {display: block; padding: 0.625rem; text-align: center; height: 1.25rem; margin-top: -1.25rem;}
+  #skipTo a:hover { color: #ffffff; background-color: #27a7bd; color: rgba(255,255,255, 1); background-color: rgba(39,167,189, 1); border-radius: 0;height: 1.25rem; }
+  #main,aside {float: left;clear: left; margin: 0 0 0.625rem; width: 100%}
+  #banner {margin-top: 19.375rem; }
+
+  footer { font-size: calc(12px + 9 * ( (100vw - 420px) / 860)); }
+
+  @media screen and (min-width: 1280px) {
+
+    footer {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    footer {
+      font-size: 12px;
+    }
+  }
+  header h1 {margin-top: 1.25rem; height: 2.5rem; }
+  header nav  {float: left;clear: left;margin: 0 0 1.25rem; width: 100%}
+  header nav li  {margin: 0;background: #efefef;background: rgba(239,239,239, 1); display: block;margin-bottom: 0.1875rem; height: 2.5rem;}
+  header nav a  {display: block;padding: 0.625rem; text-align: center}
+  header nav a:hover { color: #ffffff; background-color: #27a7bd; color: rgba(255,255,255, 1); background-color: rgba(39,167,189, 1); border-radius: 0; padding: 0.625rem; height: 1.25rem;}
+}
+
+#video-wrapper video  { max-width:  100%; }
+
+#banner { background-image: url('../img/abstract-banner-large.jpg'); height: 244.96px; height: 244.96px; height: 15.31rem; width: 728px; width: 728px; width: 45.5rem; max-width: 100%; } 
+
+@media screen and (max-width: 30rem) {
+  #banner { margin-top: 9.375rem; background-image: url('../img/abstract-banner-medium.jpg'); height: 4.85rem; width: 45.5rem; max-width: 100%; }
+}
+
+
+/*# sourceMappingURL=https://www.mydomain.com/maps/site.css.map */

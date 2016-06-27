@@ -1,0 +1,14 @@
+{
+  "name": "postcss-magic-data",
+  "version": "1.0.0",
+  "description": "PostCSS plugin that adds @keyframes from Magic Animations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss": "^5.0.13"
+  }
+}

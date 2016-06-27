@@ -1,0 +1,17 @@
+{
+  "name": "postcss-custom-fonts",
+  "version": "1.0.0",
+  "description": "Basic starter project for PostCSS use via Gulp",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "postcss-custom-fonts": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "MIT"
+}

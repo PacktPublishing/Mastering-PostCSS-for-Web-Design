@@ -1,0 +1,36 @@
+component(button) {
+  
+  background: #C8C8C8;
+  padding: 15px;
+  border: 0px;
+  margin-top: 30px;
+  margin-left: 15px;
+  
+  option(action) {
+    color: #1F1F1F;
+    background: #A7E040;
+    border-radius: 5px;
+  }
+  
+  option(accept) {
+    background: #00FF00;
+    border-radius: 5px;
+  }
+  
+  option(cancel) {
+    background: #FF0000;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  part(icon) {
+    font-size: 16px;
+    position: relative;
+    
+    option(cross) {
+      &:before {
+        content: "\f05e";
+      }
+    } 
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "in": "src/example.css",
+  "out": "dest/example.css",
+  "browsers": ["last 2 versions", "Android 2.3"],
+  "autoprefixer": true,
+  "filters": true,
+  "rem": true,
+  "pseudoElements": true,
+  "opacity": true,
+  "import": true,
+  "minifier": true,
+  "mqpacker": false,
+  "sourcemaps": {
+    "map": {
+      "inline": false
+    }
+  }
+}

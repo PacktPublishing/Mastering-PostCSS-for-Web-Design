@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/OpenSans-Regular-webfont.eot');
+  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+       url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font-family: 'open_sansregular', sans-serif;
+}
+
+button {
+	font-size: 18px;
+}
+
+.rectangle {
+  width: 18.75rem;
+  height: 1.25rem;
+  display: block;
+  position: relative;
+  border: 1px solid #000;
+  margin: 1.25rem 0;
+}
+
+.square-small {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  background-color: #bc8f8f;
+}
+
+.move {
+  animation-name: bounce;
+	transform: translate(17.5rem, 0rem);
+	transition-duration: 3.5s;
+}
+
+@keyframes bounce {
+
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+
+/*# sourceMappingURL=maps/style.css.map */

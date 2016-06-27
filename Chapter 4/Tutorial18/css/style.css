@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('Roboto-Regular-webfont.eot');
+  src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('Roboto-Regular-webfont.woff') format('woff'),
+       url('Roboto-Regular-webfont.ttf') format('truetype'),
+       url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "robotoregular", sans-serif;
+  font-size: calc(12px + 9 * ( (100vw - 420px) / 860)); 
+}
+
+@media screen and (min-width: 1280px) {
+
+  body {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  body {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=maps/style.css.map */

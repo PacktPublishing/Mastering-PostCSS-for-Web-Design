@@ -1,0 +1,42 @@
+@import "variables.scss";
+@import "mixins.scss";
+ 
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+     
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; 
+}   
+ 
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+.wrapper, .row {
+  @extend %clearfix;
+}
+      
+[class*='col-'] {
+  float: left;
+  padding: 1rem;
+  width: 100%;
+  min-height: 0.0625rem; 
+}   
+ 
+@media #{$breakpoint-medium} {
+  .wrapper {      
+    width: 95%;
+    max-width: $grid-max-width;     
+  }
+  @for $i from 1 through $grid-columns {      
+    .column-#{$i} {         
+      width: 100% / $grid-columns * $i;   
+    }           
+  }   
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/Roboto-Regular-webfont.eot');
+  src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "robotoregular", sans-serif;
+}
+
+img {
+	float: left;
+	position: absolute;
+}
+
+.seventies_img_div, .earlybird_img_div, .nashville_img_div {
+  padding: 4px;
+  border: solid 1px #bbb;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.2); 
+  width: 250px;
+  height: 310px;	
+  float: left;
+  position: relative;
+  margin-right: 10px;
+}
+
+#info {
+	width: 700px;
+}
+
+.seventies_img_div {
+  filter: 1977;
+}
+
+.earlybird_img_div {
+  filter: earlybird;
+
+}
+
+.nashville_img_div {
+  filter: nashville;
+}

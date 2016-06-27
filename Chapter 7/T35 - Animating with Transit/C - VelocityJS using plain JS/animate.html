@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Moving away from jQuery's animate() function</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/velocity.min.js"></script>
+</head>
+<body>
+  <div class="rectangle">
+    <div id="square-small"></div>
+  </div>
+  <button id="animation-button">Run!</button>
+  <script>
+    var smallsquare = document.getElementById('square-small');
+    var animbutton = document.getElementById('animation-button'); 
+
+    animbutton.addEventListener("click", function() {
+      Velocity(document.getElementById('square-small'), {left: 280}, {duration: 'slow' });
+    });
+  </script>
+</html>

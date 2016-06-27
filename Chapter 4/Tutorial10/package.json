@@ -1,0 +1,33 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "Configuration file for PostCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^5.0.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-postcss": "^6.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "postcss-bem": "^0.3.2",
+    "postcss-calc": "^5.0.0",
+    "postcss-cli": "^2.1.0",
+    "postcss-css-variables": "^0.5.0",
+    "postcss-custom-media": "^5.0.0",
+    "postcss-each": "^0.7.0",
+    "postcss-math": "0.0.1",
+    "postcss-mixins": "^1.0.1",
+    "postcss-nesting": "^2.0.6"
+  }
+}

@@ -1,0 +1,22 @@
+.button {
+  background: #C8C8C8;
+  padding: 15px;
+  border: 0px;
+  margin-top: 30px;
+  margin-left: 15px; }
+  .button.\--action {
+    color: #1F1F1F;
+    background: #A7E040;
+    border-radius: 5px; }
+  .button.\--accept {
+    background: #00FF00;
+    border-radius: 5px; }
+  .button.\--cancel {
+    background: #FF0000;
+    color: white;
+    border-radius: 5px; }
+  .button__icon {
+    font-size: 16px;
+    position: relative; }
+    .button__icon.\--cross:before {
+      content: "\f05e"; }

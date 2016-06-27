@@ -1,0 +1,151 @@
+@font-face  {
+	font-family: 'fira_sansregular';
+	src: url('../fonts/firasans-regular-webfont.eot');
+	src: url('../fonts/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+	     url('../fonts/firasans-regular-webfont.woff') format('woff'),
+	     url('../fonts/firasans-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div {
+  font-family: fira_sansregular, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-clip: padding-box;
+  box-shadow: 3px 3px 5px 0px rgba(148,148,148,1);
+  margin: 5% auto;
+  width: 800px;
+}
+
+#main {
+  height: 80%;
+  display: flex; 
+  background-image: url('../img/background.png'); 
+  padding: 1.5rem;
+  margin: 0;
+}
+
+#title {
+  color: #fff;
+  font-size: 32px;
+  padding-left: 100px;
+  padding-top: 30px;
+  position: absolute;
+}
+
+#header {
+  background-image: url("../img/leaves.jpg");
+  height: 150px;
+  margin: 0;
+}
+
+#leftmargin {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 32%;
+  margin-right: 1rem;
+  align-items: stretch;
+}
+
+#leftmargin {
+  background: #333;
+}
+
+#leftmargin li { 
+  list-style: none;
+}
+
+#leftmargin a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#leftmargin a:hover { 
+  text-decoration: none;
+  background: #d0c0a9 url("../images/hover.gif") left center no-repeat;
+  color: #333;
+  padding-bottom: 8px;
+}
+
+#content {
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 65%;
+  padding: 10px;
+  align-items: stretch;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#social {
+  float: right;
+  margin-top: -0.6rem;
+  height: 100%;
+  width: auto;
+  padding-right: 1rem;
+}
+
+#footer {
+  clear: both;
+  font-size: 12px;
+  height: 3rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#footer > p {
+  padding-left: 2rem;
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 736px) 
+  and (orientation: portrait) { 
+  #container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  #leftmargin {
+	display: inline-block;
+	height: 22.5%;
+	width: 96%;
+	margin: 0;
+	z-index: 2;
+	float: left;
+	position: absolute;
+  }
+
+  #main {
+    padding: 0;
+    width: 100%;
+  }
+
+  #content {
+	width: unset;
+	float: left;
+	z-index: 1;
+	padding-top: 11rem;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "postcss",
+  "version": "1.0.0",
+  "description": "Configuration file for PostCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^5.0.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-evil-icons": "^0.2.0",
+    "gulp-postcss": "^6.0.0",
+    "postcss-svg": "^1.0.4"
+  }
+}

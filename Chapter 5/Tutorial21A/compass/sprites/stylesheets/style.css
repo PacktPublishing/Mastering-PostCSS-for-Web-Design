@@ -1,0 +1,20 @@
+/* line 72, ../img/*.png */
+.img-sprite, .img-amex, .img-cirrus, .img-delta, .img-solo {
+  background-image: url('/img/../img-sb8cfeef5ac.png');
+  background-repeat: no-repeat; }
+
+/* line 84, ../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.img-amex {
+  background-position: 0 0; }
+
+/* line 84, ../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.img-cirrus {
+  background-position: 0 -64px; }
+
+/* line 84, ../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.img-delta {
+  background-position: 0 -128px; }
+
+/* line 84, ../../../../../../Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.img-solo {
+  background-position: 0 -192px; }

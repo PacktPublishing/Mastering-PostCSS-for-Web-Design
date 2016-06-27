@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/Roboto-Regular-webfont.eot');
+  src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "robotoregular", sans-serif;
+}
+
+.wrapper, .row {
+  *zoom: 1; 
+}
+
+.wrapper:before, .row:before, .wrapper:after, .row:after {
+  content: " ";
+  display: table; 
+}
+  
+.wrapper:after, .row:after {
+  clear: both; 
+}
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; 
+}
+
+.wrapper {
+  width: @neat-outer-container;
+  margin: 0 auto; 
+}
+
+[class*='col-'] {
+  float: left;
+  padding: 0.5rem;
+  width: 100%;
+  min-height: 1px; 
+}
+
+.col-1 { @neat-span-columns 1; }
+.col-2 { @neat-span-columns 2; }
+.col-3 { @neat-span-columns 3; }
+.col-4 { @neat-span-columns 4; }
+.col-5 { @neat-span-columns 5; }
+.col-6 { @neat-span-columns 6; }
+.col-7 { @neat-span-columns 7; }
+.col-8 { @neat-span-columns 8; }
+.col-9 { @neat-span-columns 9; }
+.col-10 { @neat-span-columns 10;}
+.col-11 { @neat-span-columns 11; }
+.col-12 { @neat-span-columns 12; }
+
+
+/* demo styling only */
+* { color: #363742; }
+
+span {
+  display: block;
+  background: #c2f0ff;
+  padding: 2rem;
+  text-align: center; 
+}

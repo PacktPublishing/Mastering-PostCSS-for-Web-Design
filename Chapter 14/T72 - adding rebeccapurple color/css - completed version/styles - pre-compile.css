@@ -1,0 +1,11 @@
+#box {
+  background-color: rebeccapurple;
+  height: 10rem;
+  width: 10rem;
+  margin: 3rem;
+  padding: 1rem;
+  color: #fff;
+  font: 1.4rem Arial, sans-serif;
+  box-shadow: 5px 5px 6px 0px rgba(192,192,192,1);
+}
+

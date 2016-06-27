@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/OpenSans-Regular-webfont.woff") format('woff'),
+       url("../fonts/OpenSans-Regular-webfont.ttf") format('truetype'),
+       url("../fonts/OpenSans-Regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "open_sansregular";
+}
+
+.infobox { 
+  font-weight: bold;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.box1 {
+  background-color: rgba(106, 112, 89, 0.5);
+  transition: 2s easeInSine;
+}
+
+.box1:hover {
+  transition: 2s easeInSine;
+  transform: translate(5rem, 0);
+  background-color: rgba(106, 112, 89, 1);
+}
+
+.box2 {
+  transition: 2s easeOutQuart;
+  background-color: rgba(253, 238, 167, 0.5);
+} 
+
+.box2:hover {
+  transition: 2s easeOutQuart;
+  transform: translate(5rem, 0);
+  background-color: rgba(253, 238, 167, 1);
+}
+
+.box3 {
+  transition: 2s easeInExpo;
+  background-color: rgba(155, 204, 147, 0.5);
+}  
+
+.box3:hover {
+  transition: 2s easeInExpo;
+  transform: translate(5rem, 0);
+  background-color: rgba(155, 204, 147, 1);
+}
+
+.box4 {
+  transition: 2s easeOutBack;
+  background-color: rgba(26, 148, 129, 0.5);
+} 
+
+.box4:hover {
+  transition: 2s easeOutBack;
+  transform: translate(5rem, 0);
+  background-color: rgba(26, 148, 129, 1);
+}
+
+/*# sourceMappingURL=maps/easing.css.map */

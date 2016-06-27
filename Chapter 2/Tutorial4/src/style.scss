@@ -1,0 +1,17 @@
+$social: twitter, linkedin, youtube;
+
+social-icon {
+     // shared information here
+     background: 50% no-repeat;
+     background-size: 100%;
+     float: left;
+     height: 50px;
+     width: 50px;
+   
+     // unique information loops here
+     @each $network in $social {
+          &.#{$network} {
+               background-image: image-url("app_assets/social_icons/#{$network}.svg");
+          }
+     }
+}

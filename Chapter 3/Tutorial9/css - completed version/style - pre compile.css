@@ -1,0 +1,59 @@
+/** postcss-bem-linter: define content */
+@component content {
+
+  @descendent alert {
+    font-family: Tahoma, Geneva, Arial, sans-serif;
+    font-size: 0.6875rem;
+    color: #555;
+    border-radius: 0.625rem; 
+
+    @modifier error {
+      background: #ffecec url("../img/error.png") no-repeat 0.625rem 50%;
+      border: 0.0625rem solid #f5aca6; 
+    }
+
+    @modifier error:hover {
+      opacity: 0.8; 
+    }
+
+    @modifier success {
+      background: #e9ffd9 url("../img/success.png") no-repeat 0.625rem 50%;
+      border: 0.0625rem solid #a6ca8a; 
+    }
+
+    @modifier success:hover {
+      opacity: 0.8; 
+    }
+
+    @modifier warning {
+      background: #fff8c4 url("../img/warning.png") no-repeat 0.625rem 50%;
+      border: 0.0625rem solid #f2c779; 
+    }
+
+    @modifier warning:hover {
+      opacity: 0.8; 
+    }
+
+    @modifier notice {
+      background: #e3f7fc url("../img/info.png") no-repeat 0.625rem 50%;
+      border: 0.0625rem solid #8ed9f6; 
+    }
+
+    @modifier notice:hover {
+      opacity: 0.8; 
+    } 
+  }
+}
+
+/* postcss-bem-linter: ignore */
+.dlgBox {
+    border-radius: 0.625rem;
+    padding: 0.625rem 0.625rem 0.625rem 2.375rem;
+    margin: 0.625rem;
+    width: 14.5rem;
+}
+
+span {
+  font-weight: bold;
+  text-transform: uppercase; 
+}

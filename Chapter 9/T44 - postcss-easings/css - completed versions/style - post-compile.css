@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/OpenSans-Regular-webfont.woff") format('woff'),
+       url("../fonts/OpenSans-Regular-webfont.ttf") format('truetype'),
+       url("../fonts/OpenSans-Regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "open_sansregular";
+}
+
+.infobox { 
+  font-weight: bold;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.35);
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.box1 {
+  background-color: rgba(106, 112, 89, 0.5);
+  transition: 2s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.box1:hover {
+  transition: 2s cubic-bezier(0.47, 0, 0.745, 0.715);
+  transform: translate(5rem, 0);
+  background-color: rgba(106, 112, 89, 1);
+}
+
+.box2 {
+  transition: 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: rgba(253, 238, 167, 0.5);
+} 
+
+.box2:hover {
+  transition: 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: translate(5rem, 0);
+  background-color: rgba(253, 238, 167, 1);
+}
+
+.box3 {
+  transition: 2s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  background-color: rgba(155, 204, 147, 0.5);
+}  
+
+.box3:hover {
+  transition: 2s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transform: translate(5rem, 0);
+  background-color: rgba(155, 204, 147, 1);
+}
+
+.box4 {
+  transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: rgba(26, 148, 129, 0.5);
+} 
+
+.box4:hover {
+  transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translate(5rem, 0);
+  background-color: rgba(26, 148, 129, 1);
+}
+/*# sourceMappingURL=maps/style.css.map */

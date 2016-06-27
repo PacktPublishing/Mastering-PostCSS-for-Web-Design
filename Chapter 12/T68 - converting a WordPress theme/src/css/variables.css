@@ -1,0 +1,27 @@
+/**
+ * 0 - Variables
+ */
+
+ /**
+ * 0.1 - Colors
+ */
+$lightgray: #d1d1d1;
+$almostblack: #1a1a1a;
+$verydarkgray: #686868;
+$white: #ffffff;
+$verylightgray: #f7f7f7;
+$strongblue: #007acc;
+
+/**
+ * 0.2 - Fonts
+ */
+$Monserrat: Montserrat, "Helvetica Neue", sans-serif;
+$OpenSans: "Open Sans", sans-serif;
+$Merriweather: Merriweather, Georgia, serif;
+$Inconsolata: Inconsolata, monospace;
+
+
+/**
+ * 0.3 - Font Sizes
+ */
+$baseSize: 16px;

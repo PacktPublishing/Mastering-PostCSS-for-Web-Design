@@ -1,0 +1,6 @@
+div {
+	property: all;
+	duration: 1s;
+	timing: ease-in-out;
+	delay: 1s;
+}

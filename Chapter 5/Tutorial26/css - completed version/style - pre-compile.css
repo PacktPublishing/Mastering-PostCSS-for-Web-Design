@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/Roboto-Regular-webfont.eot');
+  src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+       url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+       url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "robotoregular", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.shadeborder {
+  width: 16rem;
+  padding: 0.2rem;
+  border: 0.0625rem solid #000000;
+  margin-left: 3rem;
+  float: left;
+  margin-top: 1rem;
+}
+
+#box0, #box1, #box2, #box3 {
+  height: 10rem;
+  width: 16rem; 	
+}
+
+#box0 { 
+  background-color: #ff0000;
+}
+
+#box1 { 
+  background-color: tint(red, 0.6);
+}
+
+#box2 { 
+  background-color: darken(red, 0.6);
+}
+
+#box3 {
+  background-color: sepia(red, 0.7);
+}
+

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["styles.css"],"sourcesContent":["#box {\r\n  background-color: rgb(102, 51, 153);\r\n  height: 30rem;\r\n  width: 30rem;\r\n}"],"file":"styles.css","sourceRoot":"/source/"}

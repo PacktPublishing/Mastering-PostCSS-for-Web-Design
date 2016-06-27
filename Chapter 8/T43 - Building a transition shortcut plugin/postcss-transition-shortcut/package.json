@@ -1,0 +1,28 @@
+{
+  "name": "postcss-transition-shortcut",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to allow use of shorthand properties in CSS transitions",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "transitions"
+  ],
+  "author": "alexlibby <alex.libby@not42.net>",
+  "license": "MIT",
+  "repository": "AlexLibby/postcss-transition-shortcut",
+  "bugs": {
+    "url": "https://github.com/AlexLibby/postcss-transition-shortcut/issues"
+  },
+  "homepage": "https://github.com/AlexLibby/postcss-transition-shortcut",
+  "dependencies": {
+    "postcss": "^5.0.13"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1",
+    "eslint": "^1.10.3"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  }
+}

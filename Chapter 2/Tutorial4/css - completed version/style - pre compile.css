@@ -1,0 +1,13 @@
+.social-icon {
+  background: 50% no-repeat;
+  background-size: 100%;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+@each $media in twitter, linkedin, youtube {
+  .$(media) {
+    background: url('../img/$(media).png');
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["example.css"],"sourcesContent":["body {\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: -ms-flexbox;\r\n\tdisplay: flex;\r\n\tbackground: #fff1az;\r\n}\r\n"],"file":"example.css","sourceRoot":"/source/"}

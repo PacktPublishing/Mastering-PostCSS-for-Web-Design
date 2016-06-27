@@ -1,0 +1,23 @@
+@import 'bourbon';
+@import 'neat';
+
+div {
+    @include linear-gradient(red, black);
+}
+
+$first-breakpoint-value: 400px;
+$second-breakpoint-value: 700px;
+$medium-viewport: new-breakpoint(min-width $first-breakpoint-value max-width $second-breakpoint-value);
+$large-viewport: new-breakpoint(min-width $second-breakpoint-value + 1);
+
+.element {
+  @include media($medium-viewport) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  @include media($large-viewport) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
+}

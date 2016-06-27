@@ -1,0 +1,53 @@
+@import "_animate.scss";
+
+body {
+	background: #eee;
+}
+
+#gallery {
+	width: 745px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery img {
+	border: 0.25rem solid #fff;
+	margin: 20px;
+	box-shadow: 0.25rem 0.25rem 0.3125rem #999;
+	float: left;
+}
+
+.bounce {
+	@include bounce();
+}
+
+.flip {
+	@include flip();
+}
+
+.hinge {
+	@include hinge();
+}
+
+.flash {
+	@include flash();
+}
+
+.shake {
+	@include shake();
+}
+
+.swing {
+	@include swing();
+}
+
+.animated {
+	animation-duration: 5s;
+	animation-fill-mode: both;
+}
+
+.animated:hover {
+	animation-duration: 5s;
+	animation-fill-mode: both;
+}

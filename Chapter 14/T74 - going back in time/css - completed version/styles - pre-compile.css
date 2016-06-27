@@ -1,0 +1,11 @@
+#box {
+  background-color: rgb(102, 51, 153, 194);
+  height: 10rem;
+  width: 10rem;
+  margin: 3rem;
+  padding: 1rem;
+  color: #000;
+  font: 1.4rem Arial, sans-serif;
+  box-shadow: 5px 5px 6px 0px rgba(192,192,192,1);
+}
+

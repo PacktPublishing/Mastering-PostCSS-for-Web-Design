@@ -1,0 +1,15 @@
+{
+  "name": "postcss-custom-fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.13",
+    "underscore": "^1.8.3"
+  }
+}

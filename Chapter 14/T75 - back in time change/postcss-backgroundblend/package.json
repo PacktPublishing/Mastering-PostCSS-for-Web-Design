@@ -1,0 +1,14 @@
+{
+  "name": "postcss-blendmode",
+  "version": "1.0.0",
+  "description": "A plugin to fix errors in the blend mode attribute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Libby",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^5.0.19"
+  }
+}

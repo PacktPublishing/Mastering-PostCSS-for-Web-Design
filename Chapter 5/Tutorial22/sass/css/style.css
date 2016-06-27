@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  padding: 3rem;
+}
+
+.icon--ei-sc-linkedin {
+  fill: green;
+}
+
+.icon--ei-sc-github {
+  fill: orange;
+}
+
+.icon--ei-sc-twitter {
+  fill: darkred;
+}
+
+.icon--ei-sc-youtube {
+  fill: royalblue;
+}
+
+/*# sourceMappingURL=maps/style.css.map */

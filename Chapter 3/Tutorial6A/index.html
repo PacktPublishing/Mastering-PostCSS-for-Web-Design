@@ -1,0 +1,47 @@
+<!DOCType html>
+<html>
+<head>
+  <title>Animating Page Navigation</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/navigate.js"></script>
+</head>
+<body>
+  <div class="wrapper active-page1">
+    <div class="page page1">
+      <h2>First page</h2>
+        <section class="sidebar">
+          This is the side bar
+        </section>
+        <section class="maincontent">
+          This is the main content
+        </section>
+        <footer>
+          This is the footer
+        </footer>
+    </div>
+    <div class="page page2">
+      <h2>Second page</h2>
+    </div>
+    <div class="page page3">
+      <h2>Third page</h2>
+    </div>
+    <div class="page page4">
+      <h2>Fourth page</h2>
+    </div>
+  </div>
+  <div class="nav-panel">
+    <div class="scroll-btn up"></div>
+    <div class="scroll-btn down"></div>
+    <nav>
+      <ul>
+        <li data-target="1" class="nav-page1 active"></li>
+        <li data-target="2" class="nav-page2"></li>
+        <li data-target="3" class="nav-page3"></li>
+        <li data-target="4" class="nav-page4"></li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

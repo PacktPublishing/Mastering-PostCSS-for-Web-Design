@@ -1,0 +1,86 @@
+{
+  "published": "2016-04-23T22:00:19.016Z",
+  "paths": [
+    "C:\\wamp\\www\\postcss\\dest\\style.css"
+  ],
+  "stylesheets": 1,
+  "styleElements": 0,
+  "size": 1377,
+  "dataUriSize": 0,
+  "ratioOfDataUriSize": 0,
+  "gzippedSize": 512,
+  "rules": 6,
+  "selectors": 7,
+  "declarations": 31,
+  "simplicity": 0.8571428571428571,
+  "averageOfIdentifier": 2.857142857142857,
+  "mostIdentifier": 5,
+  "mostIdentifierSelector": ".underline a:hover::after",
+  "averageOfCohesion": 5.166666666666667,
+  "lowestCohesion": 14,
+  "lowestCohesionSelector": [
+    ".underline a::after"
+  ],
+  "totalUniqueFontSizes": 0,
+  "uniqueFontSizes": [],
+  "totalUniqueFontFamilies": 1,
+  "uniqueFontFamilies": [
+    "'Open Sans', sans-serif"
+  ],
+  "totalUniqueColors": 2,
+  "uniqueColors": [
+    "#662D91",
+    "#C1ADD8"
+  ],
+  "totalUniqueBackgroundImages": 0,
+  "uniqueBackgroundImages": [],
+  "idSelectors": 0,
+  "universalSelectors": 0,
+  "unqualifiedAttributeSelectors": 0,
+  "javascriptSpecificSelectors": 0,
+  "importantKeywords": 0,
+  "floatProperties": 0,
+  "propertiesCount": [
+    {
+      "property": "transition",
+      "count": 3
+    },
+    {
+      "property": "content",
+      "count": 2
+    },
+    {
+      "property": "position",
+      "count": 2
+    },
+    {
+      "property": "margin",
+      "count": 2
+    },
+    {
+      "property": "padding",
+      "count": 2
+    },
+    {
+      "property": "background",
+      "count": 2
+    },
+    {
+      "property": "color",
+      "count": 2
+    },
+    {
+      "property": "opacity",
+      "count": 2
+    },
+    {
+      "property": "-webkit-transform",
+      "count": 2
+    },
+    {
+      "property": "transform",
+      "count": 2
+    }
+  ],
+  "mediaQueries": 0
+}
