@@ -22,7 +22,7 @@ Assumptions:
 -	Any not listed are either downloaded via the Internet during the exercise, or available from the code download; they do not have to be installed prior to that exercise being started. This includes the PostCSS plugins referenced throughout the book.
 -	Fonts used have been through Font Squirrel’s webfont generator – this creates the appropriate styles which have been used in various demos throughout the book.
 -	Media / images referenced in the book have been provided in the code download that accompanies this book, or can be obtained from the links given in the text.
-Installation of applications and plugins:
+###Installation of applications and plugins:
 Node: Double click the installer, then click Next, tick “I accept the terms in the License Agreement”, Next, next, Install, Finish (when appropriate option is displayed).
 Gulp: see https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md for installation instructions. All other Gulp-based or PostCSS-based plugins will follow similar instructions, which are also outlined in each chapter where they are used.
 Webserver –	WAMP: http://www.slideshare.net/triniwiz/wamp-20949805 details how to install it; use default options set throughout – no 				need to change any parameters shown.
