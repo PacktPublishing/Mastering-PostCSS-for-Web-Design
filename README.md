@@ -12,6 +12,24 @@ Some of the examples make use of additional plugins; most (if not all) can be
 installed directly from within NodeJS. Details are included within the appropriate
 chapter along with links to view the plugin source code and documentation
 
+The following chapters do not have any requirements: 6, 8, 9, 10, 13, 14. Any requirements for these chapters are already listed in the table.
+
+Assumptions:
+-	Internet access – many plugins will need to be downloaded via NodeJS
+-	Internet browsers with DOM Inspectors included – preferably Firefox (with Firebug – http://www.getfirebug.com) and / or Chrome (DOM Inspector already built in).
+-	Hardware column removed – no specific hardware requirements for any of the software used, over and above the OS version used.
+-	Under OS: if Any listed, then software can be used on Windows, Mac or Linux platforms.
+-	Any not listed are either downloaded via the Internet during the exercise, or available from the code download; they do not have to be installed prior to that exercise being started. This includes the PostCSS plugins referenced throughout the book.
+-	Fonts used have been through Font Squirrel’s webfont generator – this creates the appropriate styles which have been used in various demos throughout the book.
+-	Media / images referenced in the book have been provided in the code download that accompanies this book, or can be obtained from the links given in the text.
+Installation of applications and plugins:
+Node: Double click the installer, then click Next, tick “I accept the terms in the License Agreement”, Next, next, Install, Finish (when appropriate option is displayed).
+Gulp: see https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md for installation instructions. All other Gulp-based or PostCSS-based plugins will follow similar instructions, which are also outlined in each chapter where they are used.
+Webserver –	WAMP: http://www.slideshare.net/triniwiz/wamp-20949805 details how to install it; use default options set throughout – no 				need to change any parameters shown.
+		MAMP: I believe https://www.mamp.info/en/documentation/MAMP-3-User-Guide.pdf should be sufficient (not a Mac expert!)
+Sublime Text:	double click installer, then press Next, Next, Install and Finish (when appropriate button shown).	
+
+
 | Chapter number | Software required (with version) | Free/Proprietary | If proprietary, can code testing be performed using a trial version | If proprietary, then cost of the software | Download links to the software | OS required |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | All | Sublime Text 3 | Proprietary | Yes – no time limit; other editors can be used, but | USD 70 | http://www.sublimetext.com/3 | Any |
