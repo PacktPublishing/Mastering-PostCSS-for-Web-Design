@@ -10,7 +10,9 @@ I recommend installing Sublime Text 3; it works well with Node and Gulp, which
 we will use throughout the book.
 Some of the examples make use of additional plugins; most (if not all) can be
 installed directly from within NodeJS. Details are included within the appropriate
-chapter along with links to view the plugin source code and documentation.
+chapter along with links to view the plugin source code and documentation
+
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 
 ## Related Books
 
