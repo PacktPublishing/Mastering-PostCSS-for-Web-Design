@@ -15,6 +15,7 @@ chapter along with links to view the plugin source code and documentation
 | Chapter number | Software required (with version) | Free/Proprietary | If proprietary, can code testing be performed using a trial version | If proprietary, then cost of the software | Download links to the software | OS required |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | All | Sublime Text 3 | Proprietary | Yes – no time limit; other editors can be used, but | USD 70 | http://www.sublimetext.com/3 | Any |
+| 11 | Syntax Highlighing for PostCSS (for Sublime Text) | Free | N/A | N/A | Installed via Package Control – details given in text | Any |
 
 ## Related Books
 
