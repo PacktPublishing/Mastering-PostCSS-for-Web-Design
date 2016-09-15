@@ -21,8 +21,8 @@ chapter along with links to view the plugin source code and documentation
 | All | Gulp | Free | N/A | N/A | http://www.gulpjs.com | Any |
 | 5 | Evil Icon icons | Free | N/A | N/A | https://github.com/outpunk/gulp-evil-icons, although specific icons already in code download | Any |
 | 5 | WebP Image support | Free | N/A | N/A | https://developers.google.com/speed/webp/, but specific parts already in code download | Windows, but other OS support available |
-| All | Source Sans Pro font | Free | N/A | N/A |  | Any |
-| All | Roboto Font | Free | N/A | N/A |  | Any |
+| All | Source Sans Pro font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/sourcesanspro | Any |
+| All | Roboto Font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/roboto | Any |
 | 2 | Social Media icons | Free | N/A | N/A | http://wegraphics.net/downloads/free-stained-and-faded-social-media-icons/ | Any |
 
 ## Related Books
