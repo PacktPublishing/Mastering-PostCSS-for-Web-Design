@@ -43,6 +43,16 @@ Sublime Text:	double click installer, then press Next, Next, Install and Finish 
 | All | Source Sans Pro font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/sourcesanspro | Any |
 | All | Roboto Font | Free | N/A | N/A | http://www.fontsquirrel.com/fonts/roboto | Any |
 | 2 | Social Media icons | Free | N/A | N/A | http://wegraphics.net/downloads/free-stained-and-faded-social-media-icons/ | Any |
+| 11 | Git | Free | N/A | N/A | https://git-scm.com/ | Any |
+| 7 | Transit library | Free | N/A | N/A | http://ricostacruz.com/jquery.transit/ | Any |
+| 7 | Velocity library | Free | N/A | N/A | http://julian.com/research/velocity/ | Any |
+| 7 | Animate.css by Dan Eden | Free | N/A | N/A | https://daneden.github.io/animate.css/ | Any |
+| 7 | Animate.scss by Geoff Graham | Free | N/A | N/A | https://github.com/geoffgraham/animate.scss | Any |
+| 7 | Magic animations | Free | N/A | N/A | http://www.minimamente.com/example/magic_animations/ | Any |
+| 12 | WordPress – standalone installation; includes TwentySixteen theme | Free | N/A | N/A | http://www.wordpress.org | Any |
+| 12 | A suitable web server for local use | Free | N/A | N/A | Various – Apache (http://www.apachefriends.org) – cross-platform; WAMPServer (http://www.wampserver.de/en) – Win
+
+Linux users will likely have one available within their distro | Any – see left |
 
 ## Related Books
 
