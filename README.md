@@ -11,6 +11,7 @@ we will use throughout the book.
 Some of the examples make use of additional plugins; most (if not all) can be
 installed directly from within NodeJS. Details are included within the appropriate
 chapter along with links to view the plugin source code and documentation.
+| Chapter number | Software required (with version) | Free/Proprietary | If proprietary, can code testing be performed using a trial version | If proprietary, then cost of the software | Download links to the software | OS required |
 ## Related Books
 
 
