@@ -29,6 +29,7 @@ Webserver –	WAMP: http://www.slideshare.net/triniwiz/wamp-20949805 details how
 		MAMP: I believe https://www.mamp.info/en/documentation/MAMP-3-User-Guide.pdf should be sufficient (not a Mac expert!)
 Sublime Text:	double click installer, then press Next, Next, Install and Finish (when appropriate button shown).	
 
+##Software specifications:
 
 | Chapter number | Software required (with version) | Free/Proprietary | If proprietary, can code testing be performed using a trial version | If proprietary, then cost of the software | Download links to the software | OS required |
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
