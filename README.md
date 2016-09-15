@@ -16,6 +16,14 @@ chapter along with links to view the plugin source code and documentation
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | All | Sublime Text 3 | Proprietary | Yes – no time limit; other editors can be used, but | USD 70 | http://www.sublimetext.com/3 | Any |
 | 11 | Syntax Highlighing for PostCSS (for Sublime Text) | Free | N/A | N/A | Installed via Package Control – details given in text | Any |
+| All | WAMPServer | Free | N/A | N/A | http://www.wampserver.com/en | Windows |
+| All | NodeJS | Free | N/A | N/A | https://nodejs.org/en/ | Any |
+| All | Gulp | Free | N/A | N/A | http://www.gulpjs.com | Any |
+| 5 | Evil Icon icons | Free | N/A | N/A | https://github.com/outpunk/gulp-evil-icons, although specific icons already in code download | Any |
+| 5 | WebP Image support | Free | N/A | N/A | https://developers.google.com/speed/webp/, but specific parts already in code download | Windows, but other OS support available |
+| All | Source Sans Pro font | Free | N/A | N/A |  | Any |
+| All | Roboto Font | Free | N/A | N/A |  | Any |
+| 2 | Social Media icons | Free | N/A | N/A | http://wegraphics.net/downloads/free-stained-and-faded-social-media-icons/ | Any |
 
 ## Related Books
 
