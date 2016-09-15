@@ -50,9 +50,7 @@ Sublime Text:	double click installer, then press Next, Next, Install and Finish 
 | 7 | Animate.scss by Geoff Graham | Free | N/A | N/A | https://github.com/geoffgraham/animate.scss | Any |
 | 7 | Magic animations | Free | N/A | N/A | http://www.minimamente.com/example/magic_animations/ | Any |
 | 12 | WordPress – standalone installation; includes TwentySixteen theme | Free | N/A | N/A | http://www.wordpress.org | Any |
-| 12 | A suitable web server for local use | Free | N/A | N/A | Various – Apache (http://www.apachefriends.org) – cross-platform; WAMPServer (http://www.wampserver.de/en) – Win
-
-Linux users will likely have one available within their distro | Any – see left |
+| 12 | A suitable web server for local use | Free | N/A | N/A | Various – Apache (http://www.apachefriends.org) – cross-platform; WAMPServer (http://www.wampserver.de/en) – Win Linux users will likely have one available within their distro | Any – see left |
 
 ## Related Books
 
