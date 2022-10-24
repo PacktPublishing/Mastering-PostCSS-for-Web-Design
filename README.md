@@ -64,3 +64,7 @@ Sublime Text:	double click installer, then press Next, Next, Install and Finish 
 * [Responsive Web Design by Example : Beginner's Guide](https://www.packtpub.com/web-development/responsive-web-design-example?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781849695428)
 
 * [Web Design Blueprints](https://www.packtpub.com/web-development/web-design-blueprints?utm_source=GitHub&utm_medium=Repository&utm_campaign=9781783552115)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781785885891">https://packt.link/free-ebook/9781785885891 </a> </p>
